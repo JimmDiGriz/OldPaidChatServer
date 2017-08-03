@@ -1,0 +1,53 @@
+body {
+    font-family: Consolas, monaco, monospace;
+    background-color: #080808;
+}
+div.message {
+    display:block;
+}
+.info {
+    color: rgb(26, 221, 255);
+}
+.debug {
+    color: #1aea00;
+}
+.error {
+    color: #ff0000;
+}
+#chat-container {
+    padding-left: 10px;
+}
+#output {
+    padding-bottom: 60px;
+}
+#message-input {
+    background-color: #080808;
+    font-weight: bold;
+    color: #1aea00;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+::-webkit-input-placeholder {color:#1aea00;}
+::-moz-placeholder          {color:#1aea00;}/* Firefox 19+ */
+:-moz-placeholder           {color:#1aea00;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#1aea00;}
+
+#output::after {
+    content: "";
+    background: url('../resources/images/background-test.jpg') no-repeat center center fixed;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

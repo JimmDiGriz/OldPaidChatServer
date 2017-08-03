@@ -1,0 +1,18 @@
+{
+  "name": "giraffe.socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "HappyGiraffe",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "*",
+    "request": "*",
+    "socket.io-redis": "*",
+    "request-debug": "*",
+    "randomstring": "*",
+    "winston": "*",
+    "lodash": "*",
+    "readline": "*"
+  }
+}
